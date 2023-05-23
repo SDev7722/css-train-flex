@@ -1,0 +1,110 @@
+body {
+  padding: 30px;
+}
+.task {
+  height: 100%;
+}
+.wrapper {
+  display: grid;
+  gap: 30px;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
+
+.container {
+  border: 2px solid #0050ff;
+  border-radius: 30px;
+  padding: 15px;
+  margin-bottom: 50px;
+  width: 750px;
+  position: relative;
+  background: white;
+}
+
+.item {
+  height: 60px;
+  width: 80px;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  color: #0050ff;
+  border: 2px solid black;
+}
+
+.task20 .item,
+.task16 .item,
+.task28 .item {
+  height: auto;
+}
+
+.task30,
+.task31,
+.task32,
+.task33,
+.task34,
+.task35,
+.task36,
+.task37,
+.task39 {
+  display: flex;
+}
+
+.task6 .item,
+.task7 .item,
+.task8 .item,
+.task9 .item,
+.fix-height .item {
+  width: 25%;
+}
+
+.task29 .item:nth-child(2n + 1) {
+  height: 150px;
+  font-size: 50px;
+  display: inline-flex;
+}
+
+.task30 {
+  align-items: center;
+}
+
+.task33 .item4 {
+  height: auto;
+}
+
+.task36 .item {
+  width: 100%;
+}
+
+.task38 {
+  flex-wrap: wrap;
+}
+.task38 .item {
+  width: 40%;
+}
+
+.fix-height {
+  min-height: 400px;
+}
+.fix-height .task {
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 35px;
+  color: #0050ff;
+  margin: 35px 0;
+  font-weight: 700;
+}
+
+p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 20px;
+}
