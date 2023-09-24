@@ -1,147 +1,189 @@
 .task1 {
+  display: inline-flex;
 }
 
 .task2 {
   display: flex;
+  flex-direction: row;
 }
 
 .task3 {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .task4 {
   display: flex;
+  flex-direction: column;
 }
 
 .task5 {
   display: flex;
+  flex-direction: column-reverse;
 }
 
 .task6 {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .task7 {
   display: flex;
+  flex-wrap: nowrap;
 }
 
 .task8 {
   display: flex;
+  flex-wrap: wrap-reverse;
 }
 
 .task9 {
   display: flex;
+  flex-flow: row-reverse wrap;
 }
 
 .task10 {
   display: flex;
+  justify-content: flex-start;
 }
 
 .task11 {
   display: flex;
+  justify-content: flex-end;
 }
 
 .task12 {
   display: flex;
+  justify-content: center;
 }
 
 .task13 {
   display: flex;
+  justify-content: space-between;
 }
 
 .task14 {
   display: flex;
+  justify-content: space-around;
 }
 
 .task15 {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .task16 {
   display: flex;
+  justify-content: stretch;
 }
 
 .task17 {
   display: flex;
+  align-content: flex-start;
 }
 
 .task18 {
   display: flex;
+  align-content: flex-end;
 }
 
 .task19 {
   display: flex;
+  align-content: center;
 }
 
 .task20 {
   display: flex;
+  align-content: stretch;
 }
 
 .task21 {
   display: flex;
+  align-content: space-between;
 }
 
 .task22 {
   display: flex;
+  align-content: space-around;
 }
 
 .task23 {
   display: flex;
+  align-content: space-evenly;
 }
 
 .task24 {
   display: flex;
+  place-content: flex-start center;
 }
 
 .task25 {
   display: flex;
+  align-items: flex-start;
 }
 
 .task26 {
   display: flex;
+  align-items: flex-end;
 }
 
 .task27 {
   display: flex;
+  align-items: center;
 }
 
 .task28 {
   display: flex;
+  justify-items: stretch;
 }
 
 .task29 {
   display: flex;
+  align-items: baseline;
 }
 
 .task30 .item1 {
+  align-self: flex-start;
 }
 
 .task31 .item2 {
+  align-self: flex-end;
 }
 
 .task32 .item3 {
+  align-self: center;
 }
 
 .task33 .item4 {
+  align-self: stretch;
 }
 
 .task34 .item1 {
+  flex-basis: 50%;
 }
 
 .task35 .item2 {
+  flex-grow: 1;
 }
 
 .task36 .item3 {
+  flex-shrink: 0.5;
 }
 
 .task37 .item4 {
+  flex-basis: 200px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .task38 {
   display: flex;
+  gap: 20px 30px;
 }
 
 .task39 .item1 {
+  order: 4;
 }
 .task39 .item3 {
+  order: 2;
 }
